@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod -R ugo+rw .
+find . -type d -not -path '*/\.*' -print | wc -l
